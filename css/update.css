@@ -1,0 +1,45 @@
+#importantDates {
+    padding: 60px 0 30px 0;
+}
+#submissionGuidelines {
+    padding: 60px 0 30px 0;
+    padding-bottom: 5px;
+}
+#themesAndTracks {
+    padding: 60px 0 30px 0;
+    padding-bottom: 5px;
+}
+#schedule .nav-tabs a {
+    margin-top: 15px;;
+}
+#registrationDetails {
+    padding: 60px 0 30px 0;
+    
+}
+#supporters {
+    padding-bottom: 10px;
+}
+#contact {
+    padding-bottom: 10px;
+}
+img[src="images/gallery/Principal2.jpg"] {
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    img[src="images/gallery/Principal2.jpg"] {
+        width: 90px;
+        height: 100px;
+    }
+}
+#about p {
+    text-align: justify;
+}
+#submissionGuidelines li {
+    list-style-type: square;
+}
+#schedule {
+    display: none;
+}
+#logo img {
+    transform: scale(1.8);
+}
