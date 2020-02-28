@@ -31,6 +31,11 @@ img[src="images/gallery/Principal2.jpg"] {
         height: 100px;
     }
 }
+@media only screen and (max-width: 430px) {
+    #intro {
+        height: 110vh !important;
+    }
+}
 #about p {
     text-align: justify;
 }
@@ -42,4 +47,7 @@ img[src="images/gallery/Principal2.jpg"] {
 }
 #logo img {
     transform: scale(1.8);
+}
+#about p {
+    font-size: 1.1rem;
 }
